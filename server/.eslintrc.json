@@ -1,0 +1,7 @@
+{
+  "root": true,
+  "extends": ["trybe-backend-typescript"],
+  "rules": {
+    "sonarjs/no-duplicate-string": ["error", 5]
+  }
+}
