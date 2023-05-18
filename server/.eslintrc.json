@@ -2,6 +2,7 @@
   "root": true,
   "extends": ["trybe-backend-typescript"],
   "rules": {
-    "sonarjs/no-duplicate-string": ["error", 5]
+    "sonarjs/no-duplicate-string": ["error", 5],
+    "max-lines-per-function": ["error", 100]
   }
 }
